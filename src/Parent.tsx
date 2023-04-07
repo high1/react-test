@@ -9,7 +9,7 @@ export const Parent = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-4">
       <div className="text-6xl text-sky-500">{counter}</div>
-      <Child increase={() => increase()} />
+      <Child increase={increase} />
     </div>
   );
 };
