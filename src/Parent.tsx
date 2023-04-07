@@ -7,9 +7,9 @@ export const Parent = () => {
   const increase = () => setCounter((cnt) => cnt + 1);
 
   return (
-    <>
+    <div className="grid place-content-center h-screen">
       <div className="text-6xl text-sky-500">{counter}</div>
       <Child increase={() => increase()} />
-    </>
+    </div>
   );
 };
