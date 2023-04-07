@@ -1,9 +1,9 @@
 {
   "type": "module",
-  "name": "react-clock",
+  "name": "react-test",
   "version": "1.0.0",
   "keywords": [],
-  "description": "reactjs clock, inspired by sauron clock, credits to voby",
+  "description": "just a test",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
